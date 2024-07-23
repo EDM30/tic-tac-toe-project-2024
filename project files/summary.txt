@@ -1,0 +1,42 @@
+Game Setup:
+
+The game board is a 3x3 grid, represented by 9 div elements with the class "cell".
+Two players take turns, starting with "X" and alternating with "O".
+The game state is tracked using an array called options.
+
+
+Gameplay:
+
+Players click on empty cells to make their move.
+The current player's symbol ("X" or "O") is displayed in the clicked cell.
+After each move, the game checks for a winner or a draw.
+
+
+Win Conditions:
+
+There are 8 possible win conditions (3 rows, 3 columns, 2 diagonals).
+If a player gets 3 of their symbols in a line, they win.
+
+
+Game Flow:
+
+The game starts with player "X".
+Players alternate turns until there's a winner or a draw.
+The game status is displayed, showing whose turn it is or the game result.
+
+
+Game End:
+
+If a player wins, the game displays "[Winner] wins!".
+If all cells are filled without a winner, the game declares a "Draw!".
+A "Restart" button allows players to start a new game.
+
+
+User Interface:
+
+The game has a simple HTML structure with a title, game board, status text, and restart button.
+CSS is used to style the game board and cells.
+
+
+
+The JavaScript code handles the game logic, including initializing the game, processing player moves, checking for a winner, and managing the game state.

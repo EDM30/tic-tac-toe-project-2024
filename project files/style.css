@@ -1,0 +1,24 @@
+/* Styles for individual cells */
+.cell{
+    width: 75px;  /* Set cell width */
+    height: 75px;  /* Set cell height */
+    border: 2px solid;  /* Add a solid border */
+    box-shadow: 0 0 0 2px;  /* Add a box shadow for depth */
+    line-height: 75px;  /* Center text vertically */
+    font-size: 50px;  /* Set font size for X and O */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+}
+
+/* Styles for the main game container */
+#gameContainer{
+    font-family: "Permanent Marker", cursive;  /* Set font for the game */
+    text-align: center;  /* Center-align all text in the container */
+}
+
+/* Styles for the cell container (game board) */
+#cellContainer{
+    display: grid;  /* Use grid layout */
+    grid-template-columns: repeat(3, auto);  /* Create 3 equal columns */
+    width: 225px;  /* Set total width of the game board */
+    margin: auto;  /* Center the game board horizontally */
+}
